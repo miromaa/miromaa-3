@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.5.2] - 2017-02-23
+
+### Added
+
+- Custom Font support throughout Miromaa
+- Options: Allow setting Font for a language
+- Import: Default to another field/text, allow multiple multimedia, allow relative multimedia file paths, improved responsiveness, allow importing Date Entered
+- Export: Removed limit of number of media exported, allow exporting Date Entered
+- Dictionary: Allow filtering by a second Word Category
+- Login: `Help > Learning` and `Help > Support` added to Login screen
+
+### Changed
+
+- Import: Unused tags no longer show in tag count, removed timer message box after import
+- General: Updated Contact Information in various places
+
+### Fixed
+
+- `Help > About`: Window size adjusted so information is not cut off
+- Export: Does not export if no tag is entered but field is selected for export
+
 ## [3.5.1] - 2015-11-17
 
 ### Added
