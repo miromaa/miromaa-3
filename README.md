@@ -4,10 +4,10 @@ Miromaa is a simple software platform designed to empower any Indigenous individ
 
 ## Downloads
 
-- [Miromaa 3 Installer](https://github.com/miromaa/miromaa/releases/latest/Miromaa3Setup.exe)
-- [Miromaa 3 Updater](https://github.com/miromaa/miromaa/releases/latest/Miromaa3Update.msi)
+- [Miromaa 3 Installer](https://github.com/miromaa/miromaa-3/releases/latest/download/Miromaa3Setup.exe)
+- [Miromaa 3 Updater](https://github.com/miromaa/miromaa-3/releases/latest/download/Miromaa3Update.msi)
 
-Check out the [GitHub Releases Page](https://github.com/miromaa/miromaa/releases) for formal release assets and tags.
+Check out the [GitHub Releases Page](https://github.com/miromaa/miromaa-3/releases) for formal release assets and tags.
 
 ## Changelog
 
