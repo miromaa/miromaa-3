@@ -5,6 +5,44 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.5.9] - 2019-07-14
+
+### Added
+
+- Word Category and Part of Speech to CSV Export
+
+## [3.5.8] - 2019-05-16
+
+### Added
+
+- Additional fields to search
+- CSV Export functionality
+- Dictionary Export ordering with multiple characters
+
+### Fixed
+
+- Possible crash when language and custom field labels are unusually long
+- Dictionary Export ordering changes not saved after automatically upgrading from previous version
+- Password fields not applying character mask in some circumstances
+
+## [3.5.7] - 2019-03-04
+
+### Added
+
+- Additional Custom Field Labels
+- Link to Miromaa Resource Maker
+- Dictionary User Group Permissions
+- View images full screen with double-click
+- Open files in default application with right-click on list
+- Era to Export and Dictionary functionality
+- Dictionary custom sort editing
+- Dictionary export now uses Language Font
+- Projects can be added to entries, exported, and edited in Options
+
+### Changed
+
+- Minor display changes in Options screen
+
 ## [3.5.6] - 2018-03-05
 
 ### Fixed
