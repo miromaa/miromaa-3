@@ -5,6 +5,78 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.6.0] - 2021-02-27
+
+### Added
+
+- Linguist custom label and custom label for "Projects"
+- Custom fonts for submenu items, popup status bar items, message boxes, window title bars, menu items, menu buttons, failed login alert, help/support screens, and "Check for Updates" screen
+- Custom label for Extra Information
+- Alert when attempting to show the About screen with no attached document
+- Check mark in menu when keyboard is displayed
+- Word Category and Word Sub Category to Search functionality
+- Help text on search window
+
+### Changed
+
+- Occurrences of "Word ID" updated to "Entry ID"
+- Order of Custom Labels "Part of Speech" moved below "Word Categories"
+- Order of "Entry" option between Linguist and Archive adjusted
+- Occurrences of "language" renamed to "collection" in `Options > Export Language`
+- Switching between Options behavior adjusted (renaming "Languages" to "Collections")
+- Navigation bar style updated to fix font sizes and button rendering in navigation panes
+- Skin initial set/loading logic revised (fixes incorrect skin, improves performance)
+- Occurrence of "Language" renamed to "Collection" in Word Lists
+- About document query optimized for performance
+- Program Icon updated
+- `Help > Support` link updated to Miromaa website
+- Learner Search now uses the same search logic as `Tools > Search` for query and Category selection
+
+### Fixed
+
+- Learner Screen displaying incorrect video
+- Word Categories header not applying
+- Dictionary export not using Language Font setting
+- Search incorrectly showing UI elements in Learner Screen under certain conditions
+- Dialog boxes using incorrect font size
+- First load of main window not showing custom labels
+- Custom font not applying to the menu and status bar
+- Status bar labels not updating under certain conditions
+- Skin not applying on loading screen under certain conditions
+- "Checking for Updates" from login screen showing message box with wrong skin
+- Font color in options screen for groups matching background (unreadable under certain conditions)
+- Font color in Word Lists/Reports headers for groups matching background (unreadable under certain conditions)
+- Missing label in options for word categories
+- Word categories header in options screen not correctly using/updating with custom label
+- Incorrect label displayed for searching in the Learner screen under certain circumstances
+- Deleting/renaming Users/Groups prompting for confirmation when editing is not possible under certain conditions
+- Incorrect "View" label under "Main Menu Headings" in Options
+- Skin not used when updating the Miromaa Database
+- Changes to About screen not applied immediately
+- Incorrect naming of Word Lists window title
+- Welcome window not hiding when selecting a view from the menu
+- Options screen not defaulting to Multimedia Location under certain conditions
+- `Options > Change Log` unable to scroll
+- Custom Labels not applied to tab headers or add Entry Reference windows
+- Custom Labels not used for Dictionary Maker window title
+- Crash when searching with wildcard in the middle of a term
+- Custom Label not applied for "Supplementary Word Category" in Dictionary Maker
+- Dropdown selection clear button not working while displayed
+- Sort order of projects in Options screen not alphabetical
+- Sort order of all dropdown selections in Word Lists screen not alphabetical
+- Sort order of Library Items in Entry editor screens not alphabetical
+- Sort order of Category/Sub Category dropdown in Learner screen not alphabetical
+- Double-clicking media attachments showing black screen when file cannot be found
+- Search not working for certain special characters
+- Export windows not applying Font
+- Opening search export causing crash when no associated program exists for file
+
+## [3.5.10]
+
+### Changed
+
+- References of "Language" updated to "Collection"
+
 ## [3.5.9] - 2019-07-14
 
 ### Added
