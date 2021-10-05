@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.6.4] - 2021-10-11
+
+### Added
+
+- Help menu items for How To's and Video How To's
+
+### Fixed
+
+- Rare crash when closing the main window, logging out, or loading System Fonts
+- Inability to rename Collections, Word Categories, Parts of Speech, Projects, Eras, Users, and User Groups when only capitalization changes are made
+- Word Lists and reports failing to export
+- Rare unexpected behavior with Library Link
+- Rare incorrect message text when removing media
+
+### Removed
+
+- `Help > Learning` menu item
+
+## [3.6.3] - 2021-05-28
+
+### Fixed
+
+- Crash when attempting to write to `update.log` with insufficient privileges
+
 ## [3.6.2] - 2021-05-21
 
 ### Changed
