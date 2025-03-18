@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.6.8] - 2025-03-18
+
+### Changed
+
+- The max length of some fields from 50 to 255
+
+## [3.6.7-beta] - 2024-02-28
+
+### Added
+
+- Multimedia folder relative path support
+- Multimedia folder user override
+- Multimedia folder relative path root override
+- Dictionary custom sort ignored characters
+- Additional Web Request security for Updates and Registration (when available)
+
+### Fixed
+
+- Crash caused by long multimedia paths in Options
+
 ## [3.6.6] - 2023-02-28
 
 ### Added
